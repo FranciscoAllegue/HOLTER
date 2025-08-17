@@ -34,4 +34,20 @@ Regulador 3.3V
 	1. Usar un conversor buck DC-DC o un LM1117-3.3? no seria mejor otra opcion?
 	2. El conversor genera ruido a alta frecuencia. Nos afecta en algo? o es todo filtrado ya?
 
+Una opcion que puede servir:
+Opción “siempre 3,3 V”: buck-boost a 3,3 V
+
+Celda Li-ion 3,7 V + porta-batería.
+Módulo de carga con protección: TP4056 con protección o BMS 1S.
+Conversor buck-boost 3,3 V: p.ej. MCP1640C/D, TPS63060/70, LTC3531 (elige uno).
+Bobina acorde al datasheet del conversor (típico 4,7–10 µH, ≥1–2 A sat. para TPS63xxx; para MCP1640 basta 0,5–1 A).
+Capacitores de entrada y salida del conversor: 2× 10–22 µF cerámicos (X5R/X7R, 6,3–10 V).
+Resistencia(s) de feedback si tu chip no viene fijo a 3,3 V (según fórmula del datasheet).
+Desacoples en el PIC: 100 nF por VDD y 4,7–10 µF en el rail de 3,3 V.
+Layout con plano de masa corto y loop pequeño (muy recomendable en PCB).
+Interruptor on/off en la entrada del conversor.
+Protección de polaridad (Schottky o MOSFET ideal), conector JST-PH.
+Header ICSP y resistencias que necesite tu PIC.
+
 	
+
