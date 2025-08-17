@@ -49,5 +49,6 @@ Interruptor on/off en la entrada del conversor.
 Protección de polaridad (Schottky o MOSFET ideal), conector JST-PH.
 Header ICSP y resistencias que necesite tu PIC.
 
-	
+Posibles opciones de baterias recargables:
+9V 600mah y 3,7 2200mah
 
