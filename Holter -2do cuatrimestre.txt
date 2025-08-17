@@ -31,6 +31,7 @@ Memoria Micro SD
 
 
 Regulador 3.3V
-	1. Usar un conversor buck DC-DC o un LM1117-3.3?
+	1. Usar un conversor buck DC-DC o un LM1117-3.3? no seria mejor otra opcion?
 	2. El conversor genera ruido a alta frecuencia. Nos afecta en algo? o es todo filtrado ya?
+
 	
