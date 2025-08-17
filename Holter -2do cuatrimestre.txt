@@ -27,6 +27,9 @@ PIC16F819-I/SP: https://www.sycelectronica.com.ar/semiconductores/PIC16F818-9.pd
 
 PIC16F88-I/P: https://www.sycelectronica.com.ar/semiconductores/PIC16F88.pdf
 
+PIC16F18313-I/P: https://www.elemon.com.ar/images/productos/hojas-de-datos/microcontroladores/pic16f18313.pdf
+
+
 Memoria Micro SD
 	1. cualquiera sirve?¿
 	2. Su zocalo: https://articulo.mercadolibre.com.ar/MLA-681759216-modulo-lector-de-tarjetas-sd-desarrollo-arm-pic-avr-_JM#polycard_client=search-nordic&position=35&search_layout=stack&type=item&tracking_id=0c5c4023-f9d0-41cb-9c5a-153c61998b57&wid=MLA681759216&sid=search
@@ -55,5 +58,6 @@ Header ICSP y resistencias que necesite tu PIC.
 
 Posibles opciones de baterias recargables:
 9V 600mah y 3,7 2200mah
+
 
 
