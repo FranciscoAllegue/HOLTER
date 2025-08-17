@@ -1,0 +1,36 @@
+PROYECTO FINAL
+
+
+PASOS:
+
+AD8232:
+	1. hacer barrido de frecuencias para ver que tipo de filtros tiene
+	2. Hacer una prueba con el osciloscopio para ver como se ve la señal. Con electrodos incorporados (nuestros cables y nuestros electrodos)
+	3. frecuencia de banda estimada: 0.05Hz - 100Hz
+	4. Ganancia estimada 100 V/V aprox 100mVpp
+	5. La señal de referencia es  1.65V
+	6. La señal ECG esta montada sobre la señal ECG -> por lo que a la salida del AD8232 veriamos 1.65V +- 100mVpp
+	7. Sabiendo esto, es necesario un AO a la salida del AD8232?
+
+
+PIC16F1823: https://ww1.microchip.com/downloads/en/DeviceDoc/41394A.pdf
+	1. nos resulta util su ADC?¿
+	2. Nos resulta util sus puertos ISP?¿
+	3. La memoria RAM que tiene, es suficiente?¿
+	4. Funciona a 3.3V
+	5. Tema Zocalo. no encontré. Existe?
+	6. Para el ADC, es necesario utilizar Oversampling?
+	7.  Si utilizamos una frecuencia de muestreo de 500Hz, es necesario un filtro antialiasing?
+	8. Configurar el ADC: https://anibalismo.wordpress.com/2012/10/19/configurar-el-adc-de-un-pic16f1823/
+
+Memoria Micro SD
+	1. cualquiera sirve?¿
+	2. Su zocalo: https://articulo.mercadolibre.com.ar/MLA-681759216-modulo-lector-de-tarjetas-sd-desarrollo-arm-pic-avr-_JM#polycard_client=search-nordic&position=35&search_layout=stack&type=item&tracking_id=0c5c4023-f9d0-41cb-9c5a-153c61998b57&wid=MLA681759216&sid=search
+	3. Es compatible con el PIC?¿
+	4. Funciona con 3.3V y 5V
+
+
+Regulador 3.3V
+	1. Usar un conversor buck DC-DC o un LM1117-3.3?
+	2. El conversor genera ruido a alta frecuencia. Nos afecta en algo? o es todo filtrado ya?
+	
