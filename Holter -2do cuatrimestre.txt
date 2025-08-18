@@ -59,5 +59,11 @@ Header ICSP y resistencias que necesite tu PIC.
 Posibles opciones de baterias recargables:
 9V 600mah y 3,7 2200mah
 
+Objetivos para antes del viernes 22/08:
+Definir todos los componentes necesarios para el hardware 
+Objetivos para antes del viernes 29/08:
+Tener ya investigado todos los componentes del hardware para su aplicación del software
+Objetivos para antes del viernes 05/09:
+Primer prueba real del hardware y software hecho.
 
 
